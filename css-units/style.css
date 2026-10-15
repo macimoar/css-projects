@@ -8,19 +8,6 @@
     line-height: 1.5;
 }
 
-body {
-    height: 50vh;
-    border: 5px solid blue;
-}
-
-.hero {
-    background-color: lightcoral;
-    border: 5px solid red;
-    height: 50%
-}
-
-.title {
-    border: 5px solid green;
-    background-color: lightgreen;
-    height: 50%;
+.description {
+    max-width: 60ch;
 }
