@@ -1,9 +1,26 @@
-.btn {
-    border: none;
-    background-color: #000;
-    color: white;
-    font-size: 1em;
-    padding: 0.5em 1em;
-    border-radius: 4px;
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    height: 50vh;
+    border: 5px solid blue;
+}
+
+.hero {
+    background-color: lightcoral;
+    border: 5px solid red;
+    height: 50%
+}
+
+.title {
+    border: 5px solid green;
+    background-color: lightgreen;
+    height: 50%;
 }
