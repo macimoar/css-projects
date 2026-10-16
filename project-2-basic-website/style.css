@@ -12,9 +12,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
     width: 90%;
     margin-inline: auto;
     padding: 1rem 0;
@@ -23,15 +31,33 @@ body {
 .title {
     font-size: 1.5rem;
     text-transform: uppercase;
+    flex: 1;
 }
 
 .menu {
     display: flex;
     gap: 1rem;
+    flex: 1;
+    justify-content: center;
 }
 
 .link {
     text-decoration: none;
     color: black;
 
+}
+
+.btn-container {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.btn {
+
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
 }
