@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: lightblue;
+    /* transform: translateY(-100px) scale(1.5) rotate(90deg) skew(20deg, 20deg); */
+    translate: 0 -100px;
+    rotate: 90deg;
+    scale:1.5;
+}
