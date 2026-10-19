@@ -19,6 +19,7 @@ body {
     display: flex;
     gap: 1rem;
     position: relative;
+    z-index: 0;
 }
 
 .item {
@@ -41,4 +42,64 @@ body {
     /* bottom: 0; */
     left: -10px;
     z-index: -1;
+}
+
+.item-2 {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -2;
+}
+.item-3 {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -3;
+}
+.item-4 {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index: -4;
+}
+.item-5 {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    z-index: -5;
+}
+.item-6 {
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    z-index: -6;
+}
+.item-7 {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+    z-index: -7;
+}
+.item-8 {
+    position: absolute;
+    top: -80px;
+    left: -80px;
+    z-index: -8;
+}
+.item-9 {
+    position: absolute;
+    top: -90px;
+    left: -90px;
+    z-index: -9;
+}
+
+.item:hover {
+    animation: blinkOut 1s;
+}
+
+@keyframes blinkOut {
+    0% { opacity: 1; }
+    10% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
 }
