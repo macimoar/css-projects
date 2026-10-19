@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+img {
+    /* display: block; removes gap between img and wrapper class. imgs are inline by default */
+    display: block;
+    max-width: 100%;
+}
+
+.hero {
+    border: 5px solid red;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/landscape.png');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.hero__description {
+    color: white;
+    max-width: 65ch;
+}
