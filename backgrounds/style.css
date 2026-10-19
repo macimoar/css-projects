@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    border: 10px dotted black;
+    width: 500px;
+    height: 500px;
+    margin: 5rem auto 0;
+    /* background */
+    background-image: url('./images/chef.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-clip: padding-box;
+}
+
+body {
+    background-image: url('./images/chef.png');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
