@@ -8,7 +8,7 @@
     line-height: 1.5;
 }
 
-body {
+section {
     height: 100vh;
     display: flex;
     justify-content:center;
@@ -19,6 +19,8 @@ body {
     display: flex;
     gap: 1rem;
     z-index: 0;
+    border: 1px solid black;
+    height: 500px;
 }
 
 .item {
@@ -35,9 +37,46 @@ body {
 }
 
 .item-1 {
-    /* position: static does not have access to top right bottom and left properties */
-    position: relative;
-    top: 50px;
-    left: 50px;
-    z-index: -1;
+    position: sticky;
+    top: 160px;
+}
+
+.item-2 {
+    position: sticky;
+    top: 140px;
+}
+
+.item-3 {
+    position: sticky;
+    top: 120px;
+}
+
+.item-4 {
+    position: sticky;
+    top: 100px;
+}
+
+.item-5 {
+    position: sticky;
+    top: 80px;
+}
+
+.item-6 {
+    position: sticky;
+    top: 60px;
+}
+
+.item-7 {
+    position: sticky;
+    top: 40px;
+}
+
+.item-8 {
+    position: sticky;
+    top: 20px;
+}
+
+.item-9 {
+    position: sticky;
+    top: 0px;
 }
