@@ -1,3 +1,5 @@
+/* Global Resets */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -5,17 +7,29 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: calc(1em+0.5rem);
 }
 
-.title-1 {
-    border: 5px solid red;
-    background-color: lightpink;
-    margin-bottom: 20px;
+html {
+    scroll-behavior: smooth;
 }
 
-.title-2 {
-    border: 5px solid red;
-    background-color: lightblue;
-    margin-top: 20px; /* This doesn't add 20px, margin collapses */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+img, picture, video, canvas, svg {
+    max-width: 100%;
+    display: block;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
 }
