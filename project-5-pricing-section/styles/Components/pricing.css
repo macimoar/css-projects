@@ -88,7 +88,7 @@
         display: grid;
         grid-template-areas:
         'css css css jav'
-        'rea rea rea nex';
+        'rea rea nex nex';
         gap: 1rem;
     }
 
